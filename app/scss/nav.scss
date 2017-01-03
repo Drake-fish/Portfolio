@@ -154,7 +154,7 @@ border-bottom:1px solid white;
   position:relative;
   .live{
     position:absolute;
-    top:229px;
+    bottom:.5rem;
     left: 0.5rem;
     color: white;
     background: rgba(0,0,0,.5);
@@ -169,7 +169,7 @@ border-bottom:1px solid white;
     }
   .code{
     position:absolute;
-    top:229px;
+    bottom:.5rem;
     left: 6rem;
     color: white;
     background: rgba(0,0,0,.5);
@@ -183,66 +183,7 @@ border-bottom:1px solid white;
     }
     }
 }
-.jeopardy-live{
-  position: absolute;
-top: 213px;
-left: 0.5rem;
-color: white;
-background: rgba(0,0,0,.5);
-padding: .5rem;
-text-decoration: none;
-transition:all .3s ease-in-out;
-border-radius:10px;
-&:hover{
-  background:rgba(255,255,255,.5);
-  color:black;
-}
-}
-.jeopardy-code{
-  position: absolute;
-top: 213px;
-left: 6rem;
-color: white;
-background: rgba(0,0,0,.5);
-padding: .5rem;
-text-decoration: none;
-transition:all .3s ease-in-out;
-border-radius:10px;
-&:hover{
-  background:rgba(255,255,255,.5);
-  color:black;
-}
-}
-.bring-live{
-  position: absolute;
-top: 222px;
-left: 0.5rem;
-color: white;
-background: rgba(0,0,0,.5);
-padding: .5rem;
-text-decoration: none;
-transition:all .3s ease-in-out;
-border-radius:10px;
-&:hover{
-  background:rgba(255,255,255,.5);
-  color:black;
-}
-}
-.bring-code{
-  position: absolute;
-top: 222px;
-left: 6rem;
-color: white;
-background: rgba(0,0,0,.5);
-padding: .5rem;
-text-decoration: none;
-transition:all .3s ease-in-out;
-border-radius:10px;
-&:hover{
-  background:rgba(255,255,255,.5);
-  color:black;
-}
-}
+
 .about{
   background:rgba(0,0,0,.14);
   border-top: 10px solid black;
@@ -293,4 +234,49 @@ border-radius: 50%;
   width:10%;
   display:inline-block;
   margin-right:.5rem;
+}
+form{
+  text-align:center;
+  padding-top:1rem;
+  background:black;
+  input{
+    margin-bottom:.5rem;
+  }
+  textarea{
+
+    display:block;
+    margin:0 auto;
+    margin-bottom:.5rem;
+  }
+  input[type="submit"]{
+    width:65%;
+    color:white;
+    background:green;
+    border:none;
+    margin-bottom:3rem;
+  }
+}
+.loading{
+  position: absolute;
+    background: rgba(0,0,0,.5);
+    color: white;
+    width: 100%;
+    height: 54%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.email-sent{
+  position: absolute;
+    background: rgba(0,0,0,.8);
+    color: white;
+    height: 54%;
+    text-align: center;
+    padding-top: 2rem;
+    h2{
+      color:rgb(0, 217, 0);
+      margin-bottom:0;
+    }
+    h3{
+      margin-top:1rem;
+    }
 }
