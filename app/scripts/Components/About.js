@@ -10,18 +10,21 @@ export default React.createClass({
   render(){
     let aboutDiv=(
       <div className="about">
-        <h2>ABOUT</h2>
+
         <img className="about-photo" src="../assets/images/about-photo.png"/>
-        <p>I am a front-end developer born and raised in Austin, Texas. As a recent graduate from the Iron Yard coding school I have spent the last 12 weeks sharpening coding skills. With a background in management I pride myself on leadership and managing my time to beat deadlines. I love to learn and create new things everyday, and when I am not coding, I love to be outdoors exploring with my dog and being in the company of good friends.</p>
-        <h3 onClick={this.addContact}>LETS TALK!</h3>
+        <div className="about-text">
+          <h2 className="about-title">My Story</h2>
+          <p>As a recent graduate from The Iron Yard coding school I have spent the last 12 weeks exploring and strengthening my passion and skills for front-end development. I have a strong background in management for which I pride myself on leadership and the ability to create positive cultures in the workplace. I love to learn and create new things everyday to stay ahead of the game in the ever-changing world of technology. Also, when I am not coding I enjoy being outdoors exploring with my dog and being in the company of good friends. <a href="www.medium.com" target="_blank">Learn More</a></p>
+          <h3 onClick={this.addContact}>LETS TALK!</h3>
+        </div>
       </div>
     );
     if(this.state.contact){
       aboutDiv=(
       <div className="about">
-        <h2 className="about-top">ABOUT</h2>
+        <h2 className="about-top">My Story</h2>
         <img className="about-photo" src="../assets/images/about-photo.png"/>
-        <p>As a recent graduate from the Iron Yard coding school I have spent the last 12 weeks sharpening my coding skills. I have a strong background in management and I pride myself on leadership and managing my time to beat deadlines. I love to learn and create new things everyday, and when I am not coding, I love to be outdoors exploring with my dog and being in the company of good friends. <a href="www.medium.com" target="_blank">Learn More</a></p>
+        <p>As a recent graduate from The Iron Yard coding school I have spent the last 12 weeks exploring and strengthening my passion and skills for front-end development. I have a strong background in management for which I pride myself on leadership and the ability to create positive cultures in the workplace. I love to learn and create new things everyday to stay ahead of the game in the ever-changing world of technology. Also, when I am not coding I enjoy being outdoors exploring with my dog and being in the company of good friends. <a href="www.medium.com" target="_blank">Learn More</a></p>
         <h3>LETS TALK!</h3>
         <div className="contact-div">
           <Contact/>

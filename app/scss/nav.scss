@@ -1,12 +1,14 @@
 
-
+.full-nav{
+  display:none;
+}
 nav {
   display:inline-block;
 font-size: 1.3rem;
 position: absolute;
-    left: 52%;
+    right:0;
     background: rgba(0,0,0,.5);
-    width: 8rem;
+    width:50%;
     position:fixed;
     z-index:3;
 a{
@@ -64,13 +66,31 @@ li:hover:before{
     font-size: 1.4rem;
     margin-right: 1rem;
     position:fixed;
-    left:85%;
+    right:1rem;
     z-index:3;
     }
     .fa-times{
       float: right;
     margin-top: -1.5rem;
     font-size: 1.4rem;
-    padding-right:1rem;
+    padding-right:2rem;
     }
+}
+@media(min-width:800px){
+  .nav{
+  .fa-bars{
+    display:none;
+  }
+  }
+  .full-nav{
+    display:inline-block;
+    float:right;
+    margin-top:-1.3rem;
+    li{
+      list-style:none;
+      display:inline-block;
+      margin-right:1rem;
+      font-size:1.3rem;
+    }
+  }
 }

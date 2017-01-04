@@ -26,9 +26,9 @@ export default React.createClass({
             <Portfolio/>
             <About/>
             <div className="contact-bottom">
-              <a href="www.twitter.com/drakefishatx" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="www.twitter.com/drakefishatx" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-              <a href="www.twitter.com/drakefishatx" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
+              <a href="www.twitter.com/drakefishatx" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+              <a href="www.linkedin.com/drakefishatx" target="_blank"><i className="fa fa-linkedin" aria-hidden="true"></i><span>Linked-in</span></a>
+              <a href="www.github.com/drake-fish" target="_blank"><i className="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
             </div>
           </div>
     );

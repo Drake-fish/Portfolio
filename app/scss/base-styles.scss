@@ -3,7 +3,13 @@
   background-repeat:no-repeat;
   background-size:cover;
   height:31rem;
+  border-bottom:1px solid white;
 }
 body{
 font-family: 'Poppins', sans-serif;
+}
+@media (min-width:600px){
+  .home{
+    height:46rem;
+  }
 }

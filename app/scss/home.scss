@@ -11,7 +11,7 @@
   }
   .tag{
     font-size:1rem;
-    color:#007FC1;
+    color:#6dcfff;
     margin-bottom:2rem;
   }
   .fa-chevron-down{
@@ -38,8 +38,35 @@
     position: absolute;
     top: 110px;
     z-index: 1;
-    border-bottom: 1px solid white;
     right: 0;;
 
   }
+}
+@media(min-width:600px){
+  .profile-photo{
+    img{
+      width:38rem;
+    }
+  }
+  .intro{
+    width:75%;
+    h2{
+      font-size:5rem;
+    }
+    .tag{
+      font-size:2rem;
+    }
+    .fa-chevron-down{
+      font-size:3rem;
+      margin-left:7rem;
+    }
+  }
+
+}
+@media(min-width:800px){
+  .intro{
+  .fa-chevron-down{
+    margin-left:19rem;
+  }
+}
 }

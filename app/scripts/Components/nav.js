@@ -30,6 +30,12 @@ export default React.createClass({
       );
     }
     return(<div className="nav">
+            <ul className="full-nav">
+              <a href="/"><li>Home</li></a>
+              <a href="#portfolio"><li>Portfolio</li></a>
+              <a href="#about"><li>About</li></a>
+              <a onClick={this.openContact}  href="#contact"><li>Contact</li></a>
+            </ul>
             {nav}
           </div>
     );
