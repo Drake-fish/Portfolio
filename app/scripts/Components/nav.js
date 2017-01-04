@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router';
-
+import Contact from './Contact';
 export default React.createClass({
   getInitialState(){
     return{
-      menu:false
+      menu:false,
+      contact:false
     };
   },
   render(){
@@ -16,8 +17,16 @@ export default React.createClass({
           <a onClick={this.closeMenu} href="/"><li>Home</li></a>
           <a onClick={this.closeMenu}  href="#portfolio"><li>Portfolio</li></a>
           <a onClick={this.closeMenu}  href="#about"><li>About</li></a>
-          <a onClick={this.closeMenu}  href="#contact"><li>Contact</li></a>
+          <a onClick={this.openContact}  href="#contact"><li>Contact</li></a>
         </nav>
+      );
+    }
+    if(this.state.contact){
+      nav=(
+        <div>
+          <i id="close" className="fa fa-times" aria-hidden="true" onClick={this.closeContact}></i>
+          <Contact/>
+        </div>
       );
     }
     return(<div className="nav">
@@ -32,6 +41,17 @@ export default React.createClass({
   },
   closeMenu(){
     this.setState({
+      menu:false
+    });
+  },
+  openContact(){
+    this.setState({
+      contact:true
+    });
+  },
+  closeContact(){
+    this.setState({
+      contact:false,
       menu:false
     });
   }

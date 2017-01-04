@@ -6,7 +6,7 @@ export default React.createClass({
       <div id="portfolio" className="portfolio">
         <h2 className="recent">Recent Work</h2>
         <div className="project1">
-          <h2 className="title">I DONT CARE YOU PICK APP</h2>
+          <h2 className="title">I Don't Care You Pick</h2>
           <p>An app to take the hastle out of finding interesting things to do around town. Find food, events, and adventures quickly and easily even when the weather is not ideal.</p>
           <img src="../assets/images/youpick.jpg"/>
           <a className="live" href="https://youpick.surge.sh">View Live</a>

@@ -1,0 +1,14 @@
+.contact-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: .5rem;
+    background:black;
+    z-index:4;
+    a{
+      margin-right:1rem;
+      color:#007FC1;
+    }
+}

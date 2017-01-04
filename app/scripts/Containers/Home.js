@@ -16,7 +16,7 @@ export default React.createClass({
               </div>
               <div className="intro">
                 <h2>HELLO</h2>
-                <h2 className="tag">My name is Drake and I am a Front-End Developer taking the front-end to the next level.</h2>
+                <h2 className="tag">My name is Drake. I am an Austin based front-end developer creating memorable experiences by exploring and pushing the web to new heights.</h2>
                 <a href="#portfolio"><i className="fa fa-chevron-down" aria-hidden="true"></i></a>
               </div>
               <div className="profile-photo">

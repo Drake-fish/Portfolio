@@ -1,0 +1,57 @@
+.portfolio{
+  margin-top: -21px;
+    text-align: center;
+    color: white;
+    background: black;
+  img{
+    width:100%;
+  }
+  .recent{
+    text-decoration:underline;
+  }
+  .title{
+    font-size:1rem;
+    text-align:left;
+    margin-left:.5rem;
+  }
+  p{
+    margin-left:.5rem;
+    margin-right:.5rem;
+    text-align:left;
+    font-size:.6rem;
+  }
+
+}
+.project1{
+  position:relative;
+  .live{
+    position:absolute;
+    bottom:.5rem;
+    left: 0.5rem;
+    color: white;
+    background: rgba(0,0,0,.5);
+    padding: .5rem;
+    text-decoration: none;
+    transition:all .3s ease-in-out;
+    border-radius:10px;
+    &:hover{
+      background:rgba(255,255,255,.5);
+      color:black;
+    }
+    }
+  .code{
+    position:absolute;
+    bottom:.5rem;
+    left: 6rem;
+    color: white;
+    background: rgba(0,0,0,.5);
+    padding: .5rem;
+    text-decoration: none;
+    transition:all .3s ease-in-out;
+    border-radius:10px;
+    &:hover{
+      background:rgba(255,255,255,.5);
+      color:black;
+    }
+    }
+}
