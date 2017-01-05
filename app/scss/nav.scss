@@ -15,7 +15,7 @@ a{
   text-decoration:none;
 }
 
-    li {
+    .nav-link {
         color: white;
         list-style:none;
         margin-bottom:1rem;
@@ -23,15 +23,15 @@ a{
         margin-bottom:2rem;
         }
 }
-li  {
+.nav-link  {
   position:relative;
   color:white;
   text-decoration:none;
 }
-li:hover{
+.nav-link:hover{
   color:white;
 }
-li:before{
+.nav-link:before{
   content: "";
   position:absolute;
   width:100%;
@@ -43,7 +43,7 @@ li:before{
   transform: scaleX(0);
   transition: all .3s ease-in-out 0s;
 }
-li:hover:before{
+.nav-link:hover:before{
   visibility:visible;
   transform:scaleX(1);
 }

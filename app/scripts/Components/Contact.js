@@ -11,9 +11,9 @@ export default React.createClass({
     let emailForm=(
       <div className="email-form">
         <h2>Questions</h2>
-        <h2>Concerns</h2>
+        <h2>Thoughts</h2>
         <h2>Work</h2>
-        <h2>Send me a message</h2>
+        <h2>Let's Talk!</h2>
         <form onSubmit={this.handleSubmit}id="contact">
           <input ref="name" placeholder="name" type="text"/>
           <input ref="email" placeholder="email" type="text"/>
@@ -26,9 +26,9 @@ if (this.state.email && !this.state.loading){
   emailForm=(
     <div className="email-form">
     <h2>Questions</h2>
-    <h2>Concerns</h2>
+    <h2>Thoughts</h2>
     <h2>Work</h2>
-    <h2>Send me a message</h2>
+    <h2>Let's Talk!</h2>
       <div className="email-sent">
         <h2><i className="fa fa-check" aria-hidden="true"></i>SUCCESS</h2>
         <h3 className="thankyou">Thanks for your email! I will be in touch with you shortly!</h3>

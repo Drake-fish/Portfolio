@@ -14,10 +14,11 @@ export default React.createClass({
       nav=(
         <nav>
           <i className="fa fa-times" aria-hidden="true" onClick={this.closeMenu}></i>
-          <a onClick={this.closeMenu} href="/"><li>Home</li></a>
-          <a onClick={this.closeMenu}  href="#portfolio"><li>Portfolio</li></a>
-          <a onClick={this.closeMenu}  href="#about"><li>About</li></a>
-          <a onClick={this.openContact}  href="#contact"><li>Contact</li></a>
+          <a onClick={this.closeMenu} href="/"><li className="nav-link">Home</li></a>
+          <a onClick={this.closeMenu}  href="#portfolio"><li className="nav-link">Portfolio</li></a>
+          <a onClick={this.closeMenu}  href="#about"><li className="nav-link">About</li></a>
+          <a onClick={this.openContact}  href="#contact"><li className="nav-link">Contact</li></a>
+          <Link onClick={this.closeMenu} to="resume"><li className="nav-link">Resume</li></Link>
         </nav>
       );
     }
@@ -31,10 +32,11 @@ export default React.createClass({
     }
     return(<div className="nav">
             <ul className="full-nav">
-              <a href="/"><li>Home</li></a>
-              <a href="#portfolio"><li>Portfolio</li></a>
-              <a href="#about"><li>About</li></a>
-              <a onClick={this.openContact}  href="#contact"><li>Contact</li></a>
+              <a href="/"><li className="nav-link">Home</li></a>
+              <a href="#portfolio"><li className="nav-link">Portfolio</li></a>
+              <a href="#about"><li className="nav-link">About</li></a>
+              <a onClick={this.openContact}  href="#contact"><li className="nav-link">Contact</li></a>
+              <Link to="resume"><li className="nav-link">Resume</li></Link>
             </ul>
             {nav}
           </div>

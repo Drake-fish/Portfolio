@@ -26,6 +26,11 @@
     }
   }
 }
+.resume-figure{
+  img{
+    max-width:100%;
+  }
+}
 .profile-photo{
   &:after{
     content:"";

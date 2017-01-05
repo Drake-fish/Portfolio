@@ -10,48 +10,75 @@
     text-decoration:underline;
   }
   .title{
-    font-size:1rem;
-    text-align:left;
-    margin-left:.5rem;
+    font-size: 1rem;
+text-align: left;
+position: absolute;
+top: 0;
+margin: 0;
+width: 100%;
+background: rgba(0,0,0,.5);
+font-size: 2rem;
+padding: .5rem;
+box-sizing:border-box;
   }
   p{
-    margin-left:.5rem;
-    margin-right:.5rem;
-    text-align:left;
-    font-size:.6rem;
+text-align: left;
+font-size: .6rem;
+position: absolute;
+bottom: 0;
+width: 50%;
+padding-left: .5rem;
+font-size: 1rem;
+background: rgba(0,0,0,.3);
   }
 
 }
 .project1{
   position:relative;
   .live{
-    position:absolute;
-    bottom:.5rem;
-    left: 0.5rem;
-    color: white;
-    background: rgba(0,0,0,.5);
-    padding: .5rem;
-    text-decoration: none;
-    transition:all .3s ease-in-out;
-    border-radius:10px;
+    position: absolute;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      padding: .5rem;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+      border-radius: 10px;
+      right: .5rem;
+      top: 4rem;
+      width:6rem;
     &:hover{
       background:rgba(255,255,255,.5);
       color:black;
     }
     }
   .code{
-    position:absolute;
-    bottom:.5rem;
-    left: 6rem;
-    color: white;
-    background: rgba(0,0,0,.5);
-    padding: .5rem;
-    text-decoration: none;
-    transition:all .3s ease-in-out;
-    border-radius:10px;
+    position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: .5rem;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  border-radius: 10px;
+  right: .5rem;
+  top: 7rem;
+  width:6rem;
     &:hover{
       background:rgba(255,255,255,.5);
       color:black;
     }
+    }
+    .Process{
+      position: absolute;
+top: 10rem;
+right: 0.5rem;
+padding: .5rem;
+background: rgba(0,0,0,.5);
+border-radius: 10px;
+color: white;
+width: 6rem;
+&:hover{
+  background:rgba(255,255,255,.5);
+  color:black;
+}
     }
 }

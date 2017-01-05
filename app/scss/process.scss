@@ -1,0 +1,70 @@
+.you-pick{
+  background:black;
+  color:white;
+  h1{
+    text-align:center;
+  }
+  .image{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    position:relative;
+  }
+  .home-link{
+    margin-left:0;
+  }
+  img{
+    width:100%;
+  }
+  .fa-arrow-right{
+    position:absolute;
+    top:45%;
+    right:0;
+    background:rgba(0,0,0,.5);
+    padding:.5rem;
+    border-radius:50%;
+    font-size:2rem;
+    transition:all .3s ease-in-out;
+    &:hover{
+      background:rgba(255,255,255,.5);
+      color:black;
+    }
+  }
+  .fa-arrow-left{
+    position:absolute;
+    top:45%;
+    left:0;
+    background:rgba(0,0,0,.5);
+    padding:.5rem;
+    border-radius:50%;
+    font-size:2rem;
+    transition:all .3s ease-in-out;
+    &:hover{
+      background:rgba(255,255,255,.5);
+      color:black;
+    }
+  }
+  h3{
+    display:inline-block;
+    border:1px solid white;
+    margin-left:2rem;
+    padding:.5rem;
+  }
+  p{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+  ul{
+    padding: 0;
+width: 85%;
+margin: 0 auto;
+
+  }
+  h2{
+    margin-left:2rem;
+  }
+  .challenges{
+    margin-bottom:2rem;
+  }
+}
